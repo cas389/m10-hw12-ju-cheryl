@@ -6,6 +6,17 @@ class Car {
     this.make = make;
     this.model = model;
     this.year = year;
+  }
+  // call mySweetRide's honk method once
+  honk() {
+    console.log('Beep Beep!');
+  }
+  // call mySweetRide's performMaintenance method once
+  performMaintenance() {
+    setTimeout(performMaintenance, 3000);
+    console.log('Maintenance Complete.')
+
+  }
 }
 
 // Create a variable named mySweetRide and assign it a car created with your class
