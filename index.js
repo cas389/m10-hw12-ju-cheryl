@@ -13,11 +13,13 @@ class Car {
   }
   // call mySweetRide's performMaintenance method once
   performMaintenance() {
-    setTimeout(performMaintenance, 3000);
-    console.log('Maintenance Complete.')
-
+    setTimeout (function () {
+      console.log('Maintenance Complete')
+    }, 3000)
   }
 }
 
 // Create a variable named mySweetRide and assign it a car created with your class
 var mySweetRide = new Car("Pontiac", "Fiero", 1988);
+mySweetRide.honk();
+mySweetRide.performMaintenance();
