@@ -1,9 +1,11 @@
 # m10-hw12-ju-cheryl
-Assignment 12 for MMC6278
+Assignment 12 for MMC6278 - Create an ES6 Class
 
 
 ## Issues While Completing Assignment
 The most difficult portion I had with this was the coding for performMaintenance. It took me a while to figure out I had to put it into a function to make it work properly.
+
+The next part I had difficultly with is the "should have had a 3 second maintenance and log "maintenance complete" after honking." I never was able to figure out how to make that go away.
 
 
 ## Outside Resources

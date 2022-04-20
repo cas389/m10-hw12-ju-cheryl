@@ -14,7 +14,7 @@ class Car {
   // call mySweetRide's performMaintenance method once
   performMaintenance() {
     setTimeout (function () {
-      console.log('Maintenance Complete')
+      console.log('Maintenance Complete');
     }, 3000)
   }
 }
